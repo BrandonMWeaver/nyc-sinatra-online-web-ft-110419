@@ -11,6 +11,11 @@
         <%=title.name%>
       <% end %>
     </td>
+    <td>
+      <% @figure.landmarks.each do |landmark| %>
+        <%=landmark.name%>
+      <% end %>
+    </td>
   </tr>
 </table>
 
